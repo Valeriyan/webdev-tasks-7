@@ -1,0 +1,20 @@
+* {
+    font-size: 2vh;
+}
+
+.interface {
+    display: flex;
+}
+
+.interface > div {
+    margin: 0 5%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons > input {
+    margin: 2% 0;
+}

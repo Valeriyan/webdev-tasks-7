@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Хрюногочи</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <audio class="sound-0" src="s0.mp3"></audio>
+    <audio class="sound-1" src="s1.mp3"></audio>
+    <audio class="sound-2" src="s2.mp3"></audio>
+    <input class="volume" type="range" min="0" max="1" step="0.01" value="0.2">
+    <div class="interface">
+        <div class="stats">
+            <div>
+                <div>
+                    Энергия:
+                </div>
+                <div class="energy">
+                </div>
+            </div>
+            <div>
+                <div>
+                    Сытость:
+                </div>
+                <div class="satiety">
+                </div>
+            </div>
+            <div>
+                <div>
+                    Настроение:
+                </div>
+                <div class="mood">
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <input type="button" class="new-game" value="Новая игра" />
+            <input type="button" class="feed" value="Покормить" />
+        </div>
+        <div class="log">
+            <div>Последнее слово Хрюну:</div>
+            <div class="speech-log"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" viewBox="0 0 21000 29700" xmlns:xlink="http://www.w3.org/1999/xlink" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"> <defs> <style type="text/css"> .str0 {stroke:#2B2A29;stroke-width:20} .str1 {stroke:#F08CAE;stroke-width:20} .fil2 {fill:none} .fil0 {fill:#F08CAE} .fil1 {fill:#1F1B20} </style> </defs> <g id="Layer_x0020_1"> <metadata id="CorelCorpID_0Corel-Layer"/> <ellipse class="fil0 str0" cx="8709" cy="5598" rx="2482" ry="1671"/> <ellipse id="head" class="fil0 str0" cx="5844" cy="4807" rx="900" ry="860"/> <polygon id="ear" class="fil0 str0" points="5406 4056 5632 3418 5844 3947 "/> <ellipse id="eye" class="fil1 str0" cx="5434" cy="4715" rx="146" ry="185"/> <path id="leg-front" class="fil0 str0" d="M7289 6969c0 0 177 566 190 639 13 73 214-492 214-492l-404-147z"/> <polygon id="leg-back" class="fil0 str0" points="9471 7176 9781 7641 10045 6999 "/> <polygon id="nose" class="fil0 str0" points="4959 4666 4791 4672 4793 5005 4974 5025 "/> <path id="mouth" class="fil2 str0" d="M5086 5270c73 10 147 20 200 17 53-3 85-18 118-34"/> <path class="fil2 str1" d="M11097 5091l186-73 0 0c179 16 252-509 81-408-236 140 267 659 512-2 147-396-382-11 37 114 94 29 185-9 249-28"/> </g></svg>
+    <script src="main.js"></script>
+</body>
+</html>
